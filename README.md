@@ -14,6 +14,7 @@ PC with Linux operating system
 7]	The decrypted form is also displayed as final output. 8] Thus the output is obtained.
 
 # PROGRAM:
+```
 #include<stdio.h> #include<stdlib.h> #include<math.h> #include<string.h>
 longintp,q,n,t,flag,e[100],d[100],temp[100],j,m[100],en[100],i; char msg[100];
 int prime(longint); void ce();
@@ -102,7 +103,7 @@ for(i=0;m[i]!=-1; i++
 )
 printf("%c",m[i]);
 }
-
+```
 # OUTPUT:
  
 <img width="1280" height="774" alt="image" src="https://github.com/user-attachments/assets/b61e2763-0fec-4098-b476-3ed06a90d1e4" />
